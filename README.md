@@ -50,7 +50,17 @@ The application requires the following environment variables in `.env`:
 - `FIREBASE_MESSAGING_SENDER_ID` - Firebase messaging sender ID
 - `FIREBASE_PROJECT_ID` - Firebase project ID
 - `FIREBASE_STORAGE_BUCKET` - Firebase storage bucket
+## License
+MIT License
+>>>>>>> fde7b1b83a0efaa95359fa21e86b37edee5b11ac
+=======
 - `FIREBASE_DATABASE_URL` - Firebase database URL
 
+## License
 
+This project is licensed under the MIT License.
 
+=======
+## License
+MIT License
+>>>>>>> fde7b1b83a0efaa95359fa21e86b37edee5b11ac
