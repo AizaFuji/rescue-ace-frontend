@@ -38,7 +38,6 @@ flutter run
 ```
 
 ## Features Implemented
-- Modular architecture via Clean Architecture.
 - User login with backend authentication.
 - Firebase Cloud Messaging for notifications.
 - State management using Provider.
