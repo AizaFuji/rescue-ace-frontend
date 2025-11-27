@@ -50,9 +50,5 @@ flutter run
 - Implement robust error handling and user feedback.
 - Add unit and integration tests.
 
-## Notes
-- Remember to keep the `.env` file secret and excluded from version control.
-- Firebase configuration files must be added for Android and iOS.
-
 ## License
 MIT License
