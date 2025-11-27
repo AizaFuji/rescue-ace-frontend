@@ -3,7 +3,6 @@
 A Flutter application for firefighting and police rescue operations, featuring real-time notifications and navigation support.
 
 ## Features
-
 - **User Authentication** - Secure login system with backend integration
 - **Real-time Notifications** - Firebase Cloud Messaging for emergency alerts
 - **Interactive Maps** - Mapbox integration for navigation and location tracking
