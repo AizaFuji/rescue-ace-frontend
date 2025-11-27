@@ -1,58 +1,57 @@
-# Rescue Ace Flutter App
+# Rescue Ace
 
-## Overview
-This Flutter application is designed to support firefighting and police rescue operations. The app connects to backend services and integrates with Firebase for notifications and authentication.
+A Flutter application for firefighting and police rescue operations, featuring real-time notifications and navigation support.
 
-## Architecture
-This app is refactored to use Clean Architecture principles with separation into domain, data, and presentation layers:
+## Features
 
-- **Domain layer:** Contains entities, usecases, and repository interfaces.
-- **Data layer:** Implements repository interfaces and API service calls.
-- **Presentation layer:** Contains UI screens and uses Provider for state management.
+- **User Authentication** - Secure login system with backend integration
+- **Real-time Notifications** - Firebase Cloud Messaging for emergency alerts
+- **Interactive Maps** - Mapbox integration for navigation and location tracking
+- **State Management** - Provider pattern for efficient state handling
 
-## Setup
+## Getting Started
 
 ### Prerequisites
-- Flutter SDK >= 3.4.4
-- Dart SDK >= 3.4.4
-- Firebase project setup with configurations
+- Flutter SDK (3.4.4 or higher)
+- Dart SDK (3.4.4 or higher)
+- Firebase project configured
 
-### Installing dependencies
-Run the following command to install dependencies including `provider` and `http`:
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AizaFuji/rescue-ace-frontend.git
+cd rescue-ace-frontend
 ```
+
+2. Install dependencies:
+```bash
 flutter pub get
 ```
 
-### Environment Variables
-The app uses environment variables managed by the `.env` file. Update `.env` with:
-
+3. Set up environment variables:
+```bash
+cp .env.example .env
+# Edit .env with your API keys and configuration
 ```
-BASE_URL=http://your-api-endpoint
-```
 
-### Running the app
-Run the app on a connected device or emulator:
-
-```
+4. Run the application:
+```bash
 flutter run
 ```
 
-## Features Implemented
-- Modular architecture via Clean Architecture.
-- User login with backend authentication.
-- Firebase Cloud Messaging for notifications.
-- State management using Provider.
-- Dependency injection for repositories and usecases.
+## Environment Variables
 
-## Future Improvements
-- Expand usecases and repositories for full API coverage.
-- Add more UI screens using state management.
-- Implement robust error handling and user feedback.
-- Add unit and integration tests.
+The application requires the following environment variables in `.env`:
 
-## Notes
-- Remember to keep the `.env` file secret and excluded from version control.
-- Firebase configuration files must be added for Android and iOS.
+- `BASE_URL` - Backend API endpoint
+- `MAPBOX_ACCESS_TOKEN` - Mapbox API token
+- `FIREBASE_API_KEY` - Firebase API key
+- `FIREBASE_APP_ID` - Firebase app ID
+- `FIREBASE_MESSAGING_SENDER_ID` - Firebase messaging sender ID
+- `FIREBASE_PROJECT_ID` - Firebase project ID
+- `FIREBASE_STORAGE_BUCKET` - Firebase storage bucket
+- `FIREBASE_DATABASE_URL` - Firebase database URL
 
-## License
-MIT License
+
+
