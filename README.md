@@ -1,66 +1,27 @@
 # Rescue Ace
 
-A Flutter application for firefighting and police rescue operations, featuring real-time notifications and navigation support.
+A Flutter app for firefighting and police rescue operations, featuring real-time notifications, interactive maps, and secure authentication.
 
 ## Features
-- **User Authentication** - Secure login system with backend integration
-- **Real-time Notifications** - Firebase Cloud Messaging for emergency alerts
-- **Interactive Maps** - Mapbox integration for navigation and location tracking
-- **State Management** - Provider pattern for efficient state handling
+- User authentication with role-based access (Anggota, Damkar, Komandan)
+- Real-time notifications via Firebase Cloud Messaging
+- Interactive maps for navigation and location tracking
+- State management with Provider
+- Cross-platform support (iOS & Android)
+
+## Technologies
+- Flutter, Dart
+- Firebase (Auth, Cloud Messaging)
+- Mapbox (flutter_map, latlong2)
+- Provider, HTTP, Shared Preferences
 
 ## Getting Started
+1. Clone: `git clone https://github.com/AizaFuji/rescue-ace-frontend.git`
+2. Install: `flutter pub get`
+3. Configure Firebase and environment variables
+4. Run: `flutter run`
 
-### Prerequisites
-- Flutter SDK (3.4.4 or higher)
-- Dart SDK (3.4.4 or higher)
-- Firebase project configured
 
-### Installation
+## Author
+Aiza Fuji - [@AizaFuji](https://github.com/AizaFuji)
 
-1. Clone the repository:
-```bash
-git clone https://github.com/AizaFuji/rescue-ace-frontend.git
-cd rescue-ace-frontend
-```
-
-2. Install dependencies:
-```bash
-flutter pub get
-```
-
-3. Set up environment variables:
-```bash
-cp .env.example .env
-# Edit .env with your API keys and configuration
-```
-
-4. Run the application:
-```bash
-flutter run
-```
-
-## Environment Variables
-
-The application requires the following environment variables in `.env`:
-
-- `BASE_URL` - Backend API endpoint
-- `MAPBOX_ACCESS_TOKEN` - Mapbox API token
-- `FIREBASE_API_KEY` - Firebase API key
-- `FIREBASE_APP_ID` - Firebase app ID
-- `FIREBASE_MESSAGING_SENDER_ID` - Firebase messaging sender ID
-- `FIREBASE_PROJECT_ID` - Firebase project ID
-- `FIREBASE_STORAGE_BUCKET` - Firebase storage bucket
-## License
-MIT License
->>>>>>> fde7b1b83a0efaa95359fa21e86b37edee5b11ac
-=======
-- `FIREBASE_DATABASE_URL` - Firebase database URL
-
-## License
-
-This project is licensed under the MIT License.
-
-=======
-## License
-MIT License
->>>>>>> fde7b1b83a0efaa95359fa21e86b37edee5b11ac
