@@ -1,0 +1,83 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+pubspec.lock
+.env
+*.lock
+*.log
+
+# Android related
+.android/
+*.keystore
+
+# iOS related
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+Pods/
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# macOS related
+macos/Flutter/Flutter.framework/
+macos/Flutter/Flutter.podspec
+macos/Flutter/ephemeral/
+DerivedData/
+build/
+
+# Windows related
+windows/Flutter/ephemeral/
+
+# Linux related
+linux/Flutter/ephemeral/
+
+# Web related
+.web/
+.flutter-plugins
+.buildweb/
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Miscellaneous Files
+*.DS_Store
+.idea
+.settings
+.settings/
+*.vscode/
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+*.flutter-plugins
+
+# Firebase files that may contain secrets (optional, check usage)
+google-services.json
+GoogleService-Info.plist
+
+# Others
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.launch.json
+
+# IntelliJ
+out/
+artifacts/
